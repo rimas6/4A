@@ -9,7 +9,7 @@
 // return -1
 
 class LinearSearch {
-
+System.out.println("hi it is rimas Alqurashi and my SID is :444014714 ");
 // This function returns index of element x in arr[]
 
 static int search(int arr[], int n, int rim)
