@@ -1,4 +1,6 @@
-//----------------------------------------------------------------------------------------------
+//RIMAS ALQURSHI
+//444014714
+
 
 // Java code for linearly search x in arr[]. If x
 
@@ -10,19 +12,19 @@ class LinearSearch {
 
 // This function returns index of element x in arr[]
 
-static int search(int arr[], int n, int x)
+static int search(int arr[], int n, int rim)
 
 {
 
-for (int i = 0; i < n; i++) {
+for (int j = 0; j < n; i++) {
 
 // Return the index of the element if the element
 
 // is found
 
-if (arr[i] == x)
+if (arr[j] == rim)
 
-return i;
+return j;
 
 }
 
@@ -44,9 +46,9 @@ int[] arr = { 3, 4, 1, 7, 5 };
 
 int n = arr.length;
 
-int x = 4;
+int rim = 4;
 
-int index = search(arr, n, x);
+int index = search(arr, n, rim);
 
 if (index == -1)
 
